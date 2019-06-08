@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyutils",
+    name="cobra-utils",
     version="alpha 0.1-p1",
     author="Pepijn Bakker",
     author_email="bakker.pepijn@gmail.com",
-    description="PyUtils Alpha",
+    description="CobraUtils Alpha",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
